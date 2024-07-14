@@ -1,0 +1,22 @@
+header h1:hover {
+  background-color: blueviolet;
+  color: brown;
+  padding: 10px;
+  border: 2px solid red;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+header p:hover {
+  background-color: blueviolet;
+  color: brown;
+  padding: 10px;
+  border: 2px solid red;
+}
+
+header p {
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,45 @@
+.text{
+    // abs()
+    margin: abs(-10px);
+
+    // ceil
+    margin: ceil(10.4px);
+
+    // floor
+    margin: floor(10.9);
+
+    // round
+    margin: round(3.6);
+    margin: round(3.3);
+
+    // max
+    margin: max(2px ,4px ,6px);
+
+    // min
+    margin: min(10px,5px,2px);
+
+    // percentage
+    margin: percentage(100px /50px);
+    
+    // compareble
+    margin: comparable(10px, 20px);
+    margin: comparable(10em, 10px);
+
+    // random
+    margin: ceil(random()*100);
+    margin: random(200);
+
+    //unit
+    margin: unit(100em); 
+    margin: unit(100px);
+    margin: unit(100px * 20rem);
+
+    // unitless
+
+    margin: unitless(100rem);
+    margin: unitless(100);
+
+    
+
+
+}

@@ -1,0 +1,49 @@
+$container-width:1000;
+$container-height:1000;
+
+// width
+@function half_1($width){
+    @return $width/1 + px;
+}
+@function half_2($width){
+    @return $width/2 + px;
+}
+@function half_3($width){
+    @return $width/3 + px;
+}
+@function half_4($width){
+    @return $width/4 + px;
+}
+
+// height
+@function half_5($height){
+    @return $height/1 + px;
+}
+@function half_5($height){
+    @return $height/2 + px;
+}
+@function half_5($height){
+    @return $height/3 + px;
+}
+@function half_5($height){
+    @return $height/4 + px;
+}
+
+
+
+
+.half_width{
+//    width: half_2($container-width);
+//    width: half_3($container-width);
+    // width: half_4($container-width);
+    width: half_4(400);
+
+
+
+
+    // height: half_2($container-height);
+    // height: half_3($container-height);
+    // height: half_4($container-height);
+    height: half_4(400);
+    background-color: aqua;
+}

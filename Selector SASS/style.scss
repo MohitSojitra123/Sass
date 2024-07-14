@@ -1,0 +1,34 @@
+$selector : selector-nest("ul","li");
+
+#{$selector}{
+    width: 10px;
+}
+
+
+// hover
+$selector : selector-nest(".abc","&:hover");
+
+#{$selector}{
+  width: 10px;
+}
+
+// append 
+
+$selector : selector-append("a",".active");
+
+#{$selector}{
+    width: 10px; 
+}
+
+// replace
+
+$selector : selector-replace("a.abc",".abc",".xyz");
+
+#{$selector}{
+    width: 10px;
+}
+
+
+
+
+

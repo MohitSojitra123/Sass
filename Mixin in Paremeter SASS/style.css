@@ -1,0 +1,26 @@
+.cl1 {
+  background-color: blue;
+  border: 4px solid red;
+  padding: 20px;
+  width: 50%;
+  height: auto;
+  margin: 30px auto;
+}
+
+.cl1 h1 {
+  color: red;
+}
+
+.cl2 {
+  background-color: yellow;
+  border: 4px solid red;
+  padding: 20px;
+  width: 50%;
+  height: auto;
+  margin: 30px auto;
+}
+
+.cl2 h1 {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

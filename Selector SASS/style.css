@@ -1,0 +1,16 @@
+ul li {
+  width: 10px;
+}
+
+.abc:hover {
+  width: 10px;
+}
+
+a.active {
+  width: 10px;
+}
+
+a.xyz {
+  width: 10px;
+}
+/*# sourceMappingURL=style.css.map */

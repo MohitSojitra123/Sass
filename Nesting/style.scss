@@ -1,0 +1,33 @@
+header{
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+    background-color: aqua;
+
+    h1{
+        background-color: violet;
+        color: blue;
+
+        // Nesting
+        &::after{
+          content:" Add Value";
+        }
+    }
+
+    // Nesting
+    h1:hover{
+      background-color: chocolate;
+    }
+
+    p{
+        background-color:cadetblue;
+        color:chartreuse;
+
+        // Nesting
+        &:hover{
+            border: 2px solid red;
+            padding: 5px;
+        }
+    }
+}

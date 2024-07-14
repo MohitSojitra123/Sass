@@ -1,0 +1,36 @@
+.test{
+    // quote
+    font-family: quote(Arial);
+
+    // unquote
+     font-family: unquote("Arial");
+
+    //  touppercase
+    font-family: to-upper-case("Arial");
+
+    // tolowercase
+    font-family: to-lower-case("Arial");
+
+    // string length
+    font-family: str-length("Arial");
+
+    // String Index
+    font-family: str-index("Arial","r");
+
+    // String INsert
+    font-family: str-insert("Arial","  Add Word",5);
+
+    // String slice
+    font-family: str-slice("Arial1234",3,7);
+
+    // unique id
+    font-family: unique-id();
+
+
+
+
+
+
+
+
+}

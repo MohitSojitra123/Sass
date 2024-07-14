@@ -1,0 +1,31 @@
+// & ==> This (This Element)
+
+@mixin samecode(){
+   &:hover{
+    background-color: blueviolet;
+    color: brown;
+    padding: 10px;
+    border: 2px solid red;
+   }
+}
+
+@mixin font_1(){
+    &{
+        text-transform: uppercase
+    };
+}
+    
+
+
+header{
+    h1{
+      @include samecode();
+      @include font_1();
+    }
+
+    p{
+        @include samecode();
+      @include font_1();
+
+    }
+}

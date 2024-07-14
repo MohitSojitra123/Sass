@@ -1,0 +1,24 @@
+.abc{
+    padding: 10px  == 20px;
+    padding: 10px  == 10px;
+    padding: 10px  == 10em;
+
+    padding:  10px != 10em;
+    padding:  10em != 10em;
+
+    padding: 'arial' == 'arial';
+    padding: (10px ,20px , 30px) == (10px ,20px , 30px);
+
+    padding: 10px > 20px;
+    padding: 10px < 50px;
+
+    padding: (10px > 5px) and (10px < 30px);
+    padding: (10px > 50px) and (10px < 30px);
+
+    padding: (10px > 50px) or (10px < 30px);
+
+    padding: not(10px > 5px);
+    padding: not(10px > 50px);
+
+
+}

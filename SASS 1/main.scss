@@ -1,0 +1,89 @@
+// Operator
+// Variable
+// Nesting
+// mixin
+// mixin Paramenter
+// partialtion :==  multiple mixin and other sass property are saved in another page and call to the css page that is partialtion method 
+// file is create by .. _filename.scss
+
+// @import "mixin"
+// @import "var";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+$bg_color:#a4ac10;
+
+
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items:center;
+    
+    // Use Variable
+    background-color: $bg_color;
+    
+    // Use Operato
+    // font-size: 10rem - 9rem;
+    // font-size: 10rem + 2rem;
+    font-size: 10rem - 5rem;
+    
+    // Nesting Select
+
+    h1{
+        color: red;
+
+        // Nesting Select
+
+        &:hover{
+            background-color:blueviolet;
+            cursor: pointer;
+        }
+    }
+
+}
+
+// mixin
+
+// @mixin flex_property{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+// }
+
+// all Property Are Used To You Can Call Only flex_property
+
+// Call 
+// h1{
+// @include flex_property;
+// }
+// 
+
+
+// Parameter
+
+// @mixin flex_property($parameter1,....(multiple Support)){
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     line-height: $parameter1;
+// }
+
+// Call 
+// h1{
+// @include flex_property(20px,.....(multiple support);
+// }
+// 
+
+ 

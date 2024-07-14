@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+// Operator
+
+
+header{
+    width: 100% - 30%; // Use Operator (+-*/) 
+    height: 50vh + 60vh - 20vh;  //Use Operator 
+    margin: auto;
+    background-color: #222f3e;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
